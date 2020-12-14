@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-changeColor:hover {
+  background-color: lightslategray;
+}
+
+.button-changeColor {
+  margin-top: 50px;
+  font-weight: bolder;
+  background-color: white;
+  border: solid darkgrey;
+  border-radius: 30px;
+  padding: 15px;
+  width: 200px;
+  height: 50px;
+}
+
+p {
+  font-size: 50px;
+}
+
+.colorDiv {
+  margin-top: 30px;
+  height: 50vh;
+  width: 60vw;
+}
